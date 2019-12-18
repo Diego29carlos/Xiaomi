@@ -31,7 +31,8 @@ h3 {
   height: auto;
 }
 .Imagen-huella {
-    
+  display: flex; justify-content: center;;
+
 }
 .Huella {
   text-align: right;
@@ -69,3 +70,20 @@ li a:hover:not(.active) {
   background-color: rgb(146, 143, 146);
 }
 
+.contenedor-bateria {
+
+}
+
+.imagen-bateria {
+
+  flex-direction: center;
+}
+
+.contenedor-camara {
+
+}
+
+.imagen-camara {
+
+  
+}
