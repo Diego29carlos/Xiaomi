@@ -1,0 +1,215 @@
+/*Color del fondo*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Fondo {
+  background-color: black;
+}
+
+.Contenedor-huella {
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.Titulo {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+/*Texto de inicio*/
+.Textoprincipal {
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white
+}
+
+/*Imagen de inicio*/
+.Imagen-inicial {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.Imagen-huella {
+  justify-items: center; 
+  border-radius: 20px;
+  width: 720px;
+}
+
+.Huella {
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.Videoxiaomi {
+  text-align: center;
+}
+
+/*Barra de contacto, etc*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+}
+  
+li {
+  float: left;
+}
+  
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+  background-color: rgb(0, 0, 0);
+}
+  
+.active {
+  background-color: rgb(117, 117, 117);
+}
+
+.Contenedor-bateria {
+  width: 720px;
+  justify-content: center;
+}
+
+.Imagen-bateria {
+  width: 720px;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.Contenedor-camara {
+  justify-content: flex-start;
+}
+
+.Imagen-camara {
+  justify-content: flex-end; 
+  display: flex;
+  border-radius: 20px;
+}
+
+/*slider*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+img {
+  width: 1280px;
+}
+
+#contenedor {
+  width: 1280px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+#contenedor ul {
+  list-style: none;
+  width: 4800px;
+  display: flex;
+
+  animation: slide 15s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slide {
+  0% {margin-left: 0px;}
+  20% {margin-left: 0px;}
+
+  25% {margin-left: -1280px;}
+  45% {margin-left: -1280px;}
+
+  50% {margin-left: -2560px;}
+  70% {margin-left: -2560px;}
+}
+
+/*Navbar*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+li, a, button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+  
+.logo {
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav_link{
+  list-style: none;
+}
+
+.nav_link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_link li a {
+  transition: all 0.3s ease 0s; 
+}
+.nav_link li a:hover {
+  color: rgb(1, 204, 255);
+}
+button {
+  padding: 20px 25px;
+  background-color: rgb(1, 204, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0,136,169,0.8);
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 30px;
+  margin: 40px;
+}
+
+
